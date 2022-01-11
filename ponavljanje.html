@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+        
+        <title> Patike </title>
+        
+        <script>
+            
+        function izracunajArtikal(){
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            alert ("Uzeli ste " + (parseInt(a) + parseInt(b)) + " artikla.");
+        } 
+        
+        </script>
+        
+        <style>
+        
+            body{
+                background-color: bisque
+            }
+            
+            h1{
+                background-color: aqua;
+                width: 50%;
+                margin: 10px;
+                padding: 20px;
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <h1> Dobrodosli u nasu web prodavnicu. Pogledajte ponudu i uzivajte! </h1>
+        
+        <div>
+        
+        <div id="nike"> 
+        
+        <h1> Nike </h1>
+            
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/800px-Logo_NIKE.svg.png" width="500" height="200">
+            
+        <br>
+        <br>
+            
+        <li> <a href="ponavljanje1.html"> Nike </a> </li>
+        
+        </div>
+            
+        
+        <div id="adidas">
+            
+        <h1> Adidas </h1>
+            
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" width="300" height="300">
+            
+        <br>
+        <br>
+            
+        <li> <a href="ponavljanje2.html"> Adidas </a> </li>
+            
+        </div>
+            
+        </div>
+        
+        <input type="number" id="a">
+        <input type="number" id="b">
+        <br>
+        <button onclick="izracunajArtikal()"> Uzeli ste </button>
+        
+        
+    </body>
+
+</html>
